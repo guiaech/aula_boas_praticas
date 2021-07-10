@@ -4,21 +4,49 @@
 }
 
 .background--one{
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: initial;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    & .block-section--one{}
-}
+    & .block-section--one{
+        display: block;
+        text-align: center;
+        width: 100%;
 
-.background--two{
-    background-size: contain;
-
-    & .block-section--two{
-        & .text-block--two{}
+        & h1{
+            font-weight: 400;
+            font-size: 22px;
+            margin-bottom: 32px;
+        }
     }
 }
 
-.section-two{
 
-    height: 100vh;
-    width: 100%;
+
+.background--two{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: initial;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    
+    & .block-section--two{
+        height: 50%;
+        width: 10%;
+        justify-content: first baseline;
+        
+        & .text-block--two{
+            justify-content:flex-end;
+            width: 10%;
+            & img{
+              margin: 90px 0px 0px 90px;
+           } 
+        }
+    }
 }
+

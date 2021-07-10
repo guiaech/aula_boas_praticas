@@ -6,4 +6,4 @@ let floatImage = `
 </div>
 `
 
-export default floatImage
+export default floatImage;
