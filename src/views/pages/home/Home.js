@@ -9,7 +9,6 @@ let Home = {
   render: async () => {
       let view = `
           <div>
-            <h1>Home</div>
             ${homeSectionOne}
             ${homeSectionTwo}
             ${floatImage}

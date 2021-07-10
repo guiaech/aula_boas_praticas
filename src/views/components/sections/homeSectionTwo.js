@@ -1,5 +1,6 @@
 import background2 from '../../../assets//images/background/background2.png';
-import darthvader from '../../../assets/images/elements/vader.png'
+import darthvader from '../../../assets/images/elements/vader.png';
+import footer from '../footler';
 
 let TextContent = `
 Lucas ipsum dolor sit amet luke sidious jango cade mace palpatine jawa wookiee wookiee kashyyyk. Dantooine calrissian r2-d2 calamari coruscant skywalker ewok. Darth fett moff endor twi'lek windu obi-wan luuke. Alderaan hutt hoth moff zabrak moff organa calamari. Ackbar mustafar wedge padmé mandalorians solo secura moff jar. Jawa luuke hutt organa jango jinn. Boba jabba kenobi moff luuke qui-gonn thrawn. Twi'lek yoda mace luke vader boba. Mace kessel darth antilles jabba. Luke hoth organa leia anakin skywalker leia ponda.
@@ -10,13 +11,14 @@ Moff ahsoka yavin calamari. Chewbacca skywalker yoda organa kit organa. Hutt hut
 let HomeSectioTwo = `
 <section class="section-two" section .background--two style="background-image: url(${background2})">
  <div>
- <img src="${darthvader}" alt="Vader" width="300px" heigth="auto"/>
- <div>
- <p>
- ${TextContent}
- </p>
+  <img src="${darthvader}" alt="Vader" width="300px" heigth="auto"/>
+  <div>
+   <p>
+    ${TextContent}
+   </p>
+  </div>
  </div>
- </div>
+ ${footer}
 </section>
 `
 
