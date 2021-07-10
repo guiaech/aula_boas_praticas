@@ -5,10 +5,16 @@
 
 .background--one{
     background-size: contain;
+
+    & .block-section--one{}
 }
 
 .background--two{
     background-size: contain;
+
+    & .block-section--two{
+        & .text-block--two{}
+    }
 }
 
 .section-two{

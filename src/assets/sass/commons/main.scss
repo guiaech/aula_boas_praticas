@@ -17,3 +17,9 @@ body{
 h1, h2, h3, h4{
   font-family: $fontFamilyDefault;
 }
+
+.main-left{
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
