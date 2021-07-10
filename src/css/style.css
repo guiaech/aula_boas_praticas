@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #000;
   color: #fff;
@@ -39,11 +43,6 @@ h1, h2, h3, h4, h5, p, b, span {
   align-items: center;
 }
 
-.block-section-two {
-  display: flex;
-  justify-content: space-around;
-}
-
 .section-one {
   height: 100vh;
   width: 100%;
@@ -73,21 +72,33 @@ h1, h2, h3, h4, h5, p, b, span {
   background-size: cover;
   background-attachment: fixed;
   background-position: initial;
-  height: 120vh;
+  height: 100%;
   display: flex;
   align-items: center;
 }
-.background--two .block-section--two {
-  height: 50%;
-  width: 10%;
-  justify-content: first baseline;
+.background--two .block-section-two {
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  width: 90%;
+  height: 80%;
+  justify-content: space-between;
 }
-.background--two .block-section--two .text-block--two {
+.background--two .block-section-two .text-block-two {
   justify-content: flex-end;
   width: 10%;
 }
-.background--two .block-section--two .text-block--two img {
+.background--two .block-section-two .text-block-two img {
   margin: 90px 0px 0px 90px;
+}
+
+@media (max-width: 600px) {
+  .background-two {
+    height: 1200px;
+  }
+  .background-two .block-sectio-two {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
